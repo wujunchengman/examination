@@ -12,6 +12,10 @@ export default defineUserConfig({
             text: '数据库系统原理',
             link: '/DataBase/NormalForm.md'
         }
+    ],
+    sidebar:[
+      '/DataBase/NormalForm.md',
+      '/DataBase/BasicKnowledge.md'
     ]
   })
 })
