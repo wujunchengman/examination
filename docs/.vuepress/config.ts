@@ -15,7 +15,8 @@ export default defineUserConfig({
     ],
     sidebar:[
       '/DataBase/NormalForm.md',
-      '/DataBase/BasicKnowledge.md'
+      '/DataBase/BasicKnowledge.md',
+      '/DataBase/RelationalAlgebra.md'
     ]
   })
 })
