@@ -19,6 +19,7 @@ export default defineUserConfig({
       '/DataBase/RelationalAlgebra.md',
       '/DataBase/QuestionAndAnswer.md',
       '/DataBase/MyGuess.md',
+      '/DataBase/SimulationExercise.md',
     ]
   })
 })
