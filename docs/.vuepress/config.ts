@@ -18,6 +18,7 @@ export default defineUserConfig({
       '/DataBase/BasicKnowledge.md',
       '/DataBase/RelationalAlgebra.md',
       '/DataBase/QuestionAndAnswer.md',
+      '/DataBase/MyGuess.md',
     ]
   })
 })
