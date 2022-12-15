@@ -11,15 +11,21 @@ export default defineUserConfig({
         {
             text: '数据库系统原理',
             link: '/DataBase/NormalForm.md'
+        },
+        {
+          text: '凤宝宝的考研',
+          link: '/Fbaby/Political/xiao401'
         }
     ],
     sidebar:[
+      '/Fbaby/Political/xiao401',
       '/DataBase/NormalForm.md',
       '/DataBase/BasicKnowledge.md',
       '/DataBase/RelationalAlgebra.md',
       '/DataBase/QuestionAndAnswer.md',
       '/DataBase/MyGuess.md',
       '/DataBase/SimulationExercise.md',
+      
     ]
   })
 })
