@@ -20,6 +20,8 @@ export default defineUserConfig({
     sidebar:[
       '/Fbaby/Political/xiao401',
       '/Fbaby/Political/xiao402',
+      '/Fbaby/Political/xiao403',
+      '/Fbaby/Political/xiao404',
       '/DataBase/NormalForm.md',
       '/DataBase/BasicKnowledge.md',
       '/DataBase/RelationalAlgebra.md',
