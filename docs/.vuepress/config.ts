@@ -15,6 +15,10 @@ export default defineUserConfig({
         {
           text: '凤宝宝的考研',
           link: '/Fbaby/Political/xiao401'
+        },
+        {
+          text: '面试准备',
+          link: '/Interview/Dalong.md'
         }
     ],
     sidebar:[
