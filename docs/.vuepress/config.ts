@@ -13,19 +13,11 @@ export default defineUserConfig({
             link: '/DataBase/NormalForm.md'
         },
         {
-          text: '凤宝宝的考研',
-          link: '/Fbaby/Political/xiao401'
-        },
-        {
           text: '面试准备',
           link: '/Interview/Dalong.md'
         }
     ],
     sidebar:[
-      '/Fbaby/Political/xiao401',
-      '/Fbaby/Political/xiao402',
-      '/Fbaby/Political/xiao403',
-      '/Fbaby/Political/xiao404',
       '/DataBase/NormalForm.md',
       '/DataBase/BasicKnowledge.md',
       '/DataBase/RelationalAlgebra.md',
