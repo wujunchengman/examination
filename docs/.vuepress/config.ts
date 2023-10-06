@@ -24,7 +24,10 @@ export default defineUserConfig({
         '/Interview/iot.md',
         '/Interview/Dalong.md'
       ],
-      '/':[
+      '/Os':[
+        '/Os/NormalForm.md',
+        '/Os/QuestionAndAnswer.md',
+        
       ]
     }
   })
