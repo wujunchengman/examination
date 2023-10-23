@@ -27,6 +27,7 @@ export default defineUserConfig({
       '/Os':[
         '/Os/NormalForm.md',
         '/Os/QuestionAndAnswer.md',
+        '/Os/computed.md',
         
       ]
     }
