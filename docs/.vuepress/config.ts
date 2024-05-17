@@ -1,9 +1,13 @@
-import { defaultTheme, defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
 
-export default defineUserConfig({
+export default defineUserConfig(
+  {
   lang: 'zh-CN',
   title: '考试准备中',
   description: '对考试内容的复习准备',
+  bundler:viteBundler(),
   theme: defaultTheme({
     repoLabel: "我的博客",
     repo: "https://cnblogs.com/wujuncheng",
@@ -20,6 +24,7 @@ export default defineUserConfig({
     sidebar:
     {
       '/Interview':[
+        '/Interview/Beisen.md',
         '/Interview/Fulimeng.md',
         '/Interview/iot.md',
         '/Interview/Dalong.md'
