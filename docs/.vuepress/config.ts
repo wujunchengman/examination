@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
 
 export default defineUserConfig(
   {
@@ -8,13 +9,18 @@ export default defineUserConfig(
   title: '考试准备中',
   description: '对考试内容的复习准备',
   bundler:viteBundler(),
+  plugins:[
+    markdownMathPlugin({
+      type: 'mathjax'
+    })
+  ],
   theme: defaultTheme({
     repoLabel: "我的博客",
     repo: "https://cnblogs.com/wujuncheng",
     navbar: [
         {
-            text: '操作系统',
-            link: '/Os/NormalForm.md'
+            text: '高数',
+            link: '/Math/differential'
         },
         {
           text: '面试准备',
